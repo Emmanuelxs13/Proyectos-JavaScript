@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/caa2637fdb.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="dash-header">
+            <div class="header-left">
+                <i class="fa-solid fa-bars" id="bars"></i>
+                <p class="app-name">Dashboard</p>
+                <div class="search-wrapper">
+                    <input type="text" placeholder="Search..." class="search-input">
+                    <i class="fa-solid fa-mangnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="header-right">
+                <button class="add-btn">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <button class="notification-btn">
+                    <i class="fa-regular fa-bell bell"></i>
+                </button>
+
+                <button class="profile-btn">
+                    <img src="./assets/img/logo.png" alt="">
+                    <span>Dev Hub</span>
+                </button>
+            </div>
+
+            <button class="service-btn">
+                <i class="fasolid fa-server"></i>
+            </button>
+
+            <button class="open-side">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <div class="content">
+            <div class="sidebar">
+                <button class="close-side">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+
+                <button class="switch-mode" title="Change Theme">
+                    <i class="fa-solid fa-moon moon"></i>
+                </button>
+
+                <a href="#" class="sidebar-buttons active home">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+
+                <a href="#" class="sidebar-buttons">
+                    <i class="fa-regular fa-circle-user user"></i>
+                </a>
+
+                <a href="#" class="sidebar-buttons">
+                    <i class="fa-solid fa-calendar-days calendar"></i>
+                </a>
+
+                <a href="#" class="sidebar-buttons">
+                    <i class="fa-solid fa-gear gear"></i>
+                </a>
+
+                <a href="" class="sidebar-buttons"></a>
+            </div>
+
+            <div class="request-section">
+                <div class="request-section-header">
+                    <p>Tickets</p>
+                    <p class="time">Today</p>
+                </div>
+
+                <div class="request section-line">
+                    <div class="project-status">
+                        <div class="item-status">
+                            <span class="status-number">9</span>
+                            <span class="status-type">Progress</span>
+                        </div>
+
+                        <div class="item-status">
+                            <span class="status-number">17</span>
+                            <span class="status-type">Closed</span>
+                        </div>
+                    </div>
+
+                    <div class="view-actions">
+                        <button class="view-btn list-view">
+                            <i class="fa-solid fa-list list"></i>
+                        </button>
+
+                        <button class="view-btn grid-view active">
+                            <i class="fa-solid fa-grip-vertical grip"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="request-boxes change-mode">
+                    <div class="request-box-container">
+                        <div class="request-box" style="background-color: #cedebd;">
+                            <div class="request-box-header">
+                                <span>April 8, 2024</span>
+                                <div class="more-wrapper">
+                                    <div class="request-btn-more">
+                                        <i class="fa-solid fa-ellipsis-vertical ellipsis"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="request-box content-header">
+                                <p class="box-content-header">Ubunto Server 22</p>
+                                <p class="box-content-subheader">192.32.54.90</p>
+                            </div>
+
+                            <div class="box-progress-wrapper">
+                                <p class="progress-header">Progress</p>
+
+                                <div class="box-progress-bar">
+                                    <span class="box-progress" style="width: 60%; background-color: #4e6d2d;"></span>
+                                </div>
+
+                                <p class="box-progress-percentage">60%</p>
+                            </div>
+
+                            <div class="request-box-footer">
+                                <span>Request :</span>
+                                <div class="type-request" style="color: #4e6d2d;">Change IP</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="request-box-container">
+                        <div class="request-box" style="background-color: #cedebd;">
+                            <div class="request-box-header">
+                                <span>April 8, 2024</span>
+                                <div class="more-wrapper">
+                                    <div class="request-btn-more">
+                                        <i class="fa-solid fa-ellipsis-vertical ellipsis"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="request-box content-header">
+                                <p class="box-content-header">Ubunto Server 22</p>
+                                <p class="box-content-subheader">192.32.54.90</p>
+                            </div>
+
+                            <div class="box-progress-wrapper">
+                                <p class="progress-header">Progress</p>
+
+                                <div class="box-progress-bar">
+                                    <span class="box-progress" style="width: 60%; background-color: #4e6d2d;"></span>
+                                </div>
+
+                                <p class="box-progress-percentage">60%</p>
+                            </div>
+
+                            <div class="request-box-footer">
+                                <span>Request :</span>
+                                <div class="type-request" style="color: #4e6d2d;">Change IP</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="request-box-container">
+                        <div class="request-box" style="background-color: #cedebd;">
+                            <div class="request-box-header">
+                                <span>April 8, 2024</span>
+                                <div class="more-wrapper">
+                                    <div class="request-btn-more">
+                                        <i class="fa-solid fa-ellipsis-vertical ellipsis"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="request-box content-header">
+                                <p class="box-content-header">Ubunto Server 22</p>
+                                <p class="box-content-subheader">192.32.54.90</p>
+                            </div>
+
+                            <div class="box-progress-wrapper">
+                                <p class="progress-header">Progress</p>
+
+                                <div class="box-progress-bar">
+                                    <span class="box-progress" style="width: 60%; background-color: #4e6d2d;"></span>
+                                </div>
+
+                                <p class="box-progress-percentage">60%</p>
+                            </div>
+
+                            <div class="request-box-footer">
+                                <span>Request :</span>
+                                <div class="type-request" style="color: #4e6d2d;">Change IP</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="request-box-container">
+                        <div class="request-box" style="background-color: #cedebd;">
+                            <div class="request-box-header">
+                                <span>April 8, 2024</span>
+                                <div class="more-wrapper">
+                                    <div class="request-btn-more">
+                                        <i class="fa-solid fa-ellipsis-vertical ellipsis"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="request-box content-header">
+                                <p class="box-content-header">Ubunto Server 22</p>
+                                <p class="box-content-subheader">192.32.54.90</p>
+                            </div>
+
+                            <div class="box-progress-wrapper">
+                                <p class="progress-header">Progress</p>
+
+                                <div class="box-progress-bar">
+                                    <span class="box-progress" style="width: 60%; background-color: #4e6d2d;"></span>
+                                </div>
+
+                                <p class="box-progress-percentage">60%</p>
+                            </div>
+
+                            <div class="request-box-footer">
+                                <span>Request :</span>
+                                <div class="type-request" style="color: #4e6d2d;">Change IP</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="request-box-container">
+                        <div class="request-box" style="background-color: #cedebd;">
+                            <div class="request-box-header">
+                                <span>April 8, 2024</span>
+                                <div class="more-wrapper">
+                                    <div class="request-btn-more">
+                                        <i class="fa-solid fa-ellipsis-vertical ellipsis"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="request-box content-header">
+                                <p class="box-content-header">Ubunto Server 22</p>
+                                <p class="box-content-subheader">192.32.54.90</p>
+                            </div>
+
+                            <div class="box-progress-wrapper">
+                                <p class="progress-header">Progress</p>
+
+                                <div class="box-progress-bar">
+                                    <span class="box-progress" style="width: 60%; background-color: #4e6d2d;"></span>
+                                </div>
+
+                                <p class="box-progress-percentage">60%</p>
+                            </div>
+
+                            <div class="request-box-footer">
+                                <span>Request :</span>
+                                <div class="type-request" style="color: #4e6d2d;">Change IP</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="request-box-container">
+                        <div class="request-box" style="background-color: #cedebd;">
+                            <div class="request-box-header">
+                                <span>April 8, 2024</span>
+                                <div class="more-wrapper">
+                                    <div class="request-btn-more">
+                                        <i class="fa-solid fa-ellipsis-vertical ellipsis"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="request-box content-header">
+                                <p class="box-content-header">Ubunto Server 22</p>
+                                <p class="box-content-subheader">192.32.54.90</p>
+                            </div>
+
+                            <div class="box-progress-wrapper">
+                                <p class="progress-header">Progress</p>
+
+                                <div class="box-progress-bar">
+                                    <span class="box-progress" style="width: 60%; background-color: #4e6d2d;"></span>
+                                </div>
+
+                                <p class="box-progress-percentage">60%</p>
+                            </div>
+
+                            <div class="request-box-footer">
+                                <span>Request :</span>
+                                <div class="type-request" style="color: #4e6d2d;">Change IP</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="data-section">
+                <button class="data-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+
+                <div class="charts">
+                    <div class="bar-chart">
+                        <span class="chart-name">Download Trafic</span>
+                        <canvas id="myChart" height="150px" width="480"></canvas>
+
+                        <span class="chart-name">Upload Trafic</span>
+                        <canvas id="myChart" height="150px" width="480"></canvas>
+                    </div>
+
+                    <span class="chart-name">System Status</span>
+
+                    <div class="pie-chart">
+                        <div class="box">
+                            <div class="chart" data-percent="60">60%</div>
+                            <h2>CPU</h2>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="chart" data-percent="72">72%</div>
+                        <h2>RAM</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
