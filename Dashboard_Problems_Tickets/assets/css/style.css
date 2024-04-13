@@ -420,3 +420,66 @@ button, a {
     right: 16px;
     top: 16px;
 }
+
+.request-boxes.jsListView .request-box-content-header {
+    order: 1;
+    max-width: 120px;
+}
+
+.request-boxes.jsListView .request-box-header {
+    order: 2;
+}
+
+.request-boxes.jsListView .request-box-footer {
+    order: 3;
+    padding-top: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.request-boxes.jsListView .request-box-footer:after {
+    display: none;
+}
+
+.request-boxes.jsListView .request-box-footer span {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.request-boxes.jsListView .request-box-content-header p {
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.request-boxes.jsListView .box-progress-wrapper {
+    order: 3;
+    flex: 1;
+}
+
+.request-box {
+    --main-color-card: #dbf6fd;
+    border-radius: 30px;
+    background-color: var(--main-color-card);
+}
+
+.request-box-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    color: var(--main-color);
+}
+
+.request-box-header span {
+    color: #4a4a4a;
+    opacity: 0.7;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.request-box-content-header {
+    text-align: left;
+    margin-bottom: 16px;
+}
